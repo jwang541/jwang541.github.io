@@ -13,8 +13,8 @@ My research interests include topics such as learning theory, uncertainty quanti
 
 Background
 ------
-- PhD in Computer Science, Columbia University, 2026-Present
-- BSE and MSE in Computer Science, University of Pennsylvania, 2022-2026
+- PhD in computer science, Columbia University, 2026-Present
+- BSE and MSE in computer science, University of Pennsylvania, 2022-2026
   - Teaching assistant for CIS 6250 (Theory of Machine Learning)
   - 2x Teaching assistant for ESE 6050 (Modern Convex Optimization)
   - 2x Teaching assistant for CIS 5030 (Algorithms for Big Data)
