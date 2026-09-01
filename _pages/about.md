@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am an undergraduate student studying computer science at the University of Pennsylvania, advised by [Surbhi Goel](https://www.surbhigoel.com/). I have also worked with [Nikolai Matni](https://nikolaimatni.github.io/). Starting Fall 2026, I will be pursing my PhD in computer science at Columbia University.
+Hi! I am a first-year Ph.D. student in computer science at Columbia University, advised by Alexandr Andoni, Adam Block, and Daniel Hsu. Previously I was a undergraduate at the University of Pennsylvania, where I worked with Surbhi Goel and Nikolai Matni.
 
-My research interests include topics such as learning theory, uncertainty quantification, and reinforcement learning, with an emphasis on designing sample- and computationally-efficient algorithms for sequential data.
+I am broadly interested in the theoretical foundations of machine learning, reinforcement learning, and language modeling.
 
 Background
 ------

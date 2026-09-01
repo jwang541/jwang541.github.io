@@ -26,11 +26,11 @@ author:
   avatar           : "japan pfp.jpg"
   name             : "James Wang"
   pronouns         : "he/him"
-  bio              : "Undergraduate student at the University of Pennsylvania interested in machine learning theory, reinforcement learning, and AI safety. Incoming PhD student at Columbia University."
-  location         : "Philadelphia, PA"
-  employer         : "University of Pennsylvania"
+  bio              : "CS PhD student at Columbia University."
+  location         : "New York, NY"
+  employer         : "Columbia University"
   uri              : # URL
-  email            : "jwang541@seas.upenn.edu" 
+  email            : "jw5002@columbia.edu" 
 
   # Academic websites
   academia         : # URL
