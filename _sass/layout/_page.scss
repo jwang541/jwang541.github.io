@@ -118,6 +118,10 @@
   }
 }
 
+.education__heading + ul {
+  font-size: 0.85em;
+}
+
 .education__dates {
   color: var(--global-text-color);
   font-size: 0.85em;
