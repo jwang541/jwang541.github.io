@@ -13,9 +13,9 @@ I am broadly interested in the theoretical foundations of machine learning, rein
 
 Background
 ------
-- PhD in computer science, Columbia University, 2026-Present
+- <span class="education__heading"><span>PhD in computer science, Columbia University</span> <span class="education__dates">2026–present</span></span>
   - Teaching assistant for COMS E6998 (Algorithms in Large Language Models)
-- BSE and MSE in computer science, University of Pennsylvania, 2022-2026
+- <span class="education__heading"><span>BSE and MSE in computer science, University of Pennsylvania</span> <span class="education__dates">2022–2026</span></span>
   - Teaching assistant for CIS 6250 (Theory of Machine Learning)
   - 2x Teaching assistant for ESE 6050 (Modern Convex Optimization)
   - 2x Teaching assistant for CIS 5030 (Algorithms for Big Data)

@@ -107,6 +107,24 @@
   }
 }
 
+/* Education entries keep dates aligned and stack them on small screens. */
+.education__heading {
+  display: grid;
+  gap: 0.125em 1em;
+  align-items: baseline;
+
+  @include breakpoint($small) {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+}
+
+.education__dates {
+  color: var(--global-text-color);
+  font-size: 0.85em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
