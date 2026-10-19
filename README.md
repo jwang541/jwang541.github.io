@@ -20,6 +20,17 @@ See more info at https://academicpages.github.io/
 Additional tutorials for working with the Academic Pages template can be found at the following sites:
 - https://jayrobwilliams.com/posts/2020/06/academic-website/
 
+## Updating the CV
+
+The navigation's **CV** link opens `files/cv/James_Wang_CV_compiled.pdf` in a new
+browser tab. Its editable LaTeX source is stored beside it at
+`files/cv/James_Wang_CV_compiled.tex`.
+
+Edit the `.tex` file, then compile it with a LaTeX installation (for example,
+`pdflatex -output-directory=files/cv files/cv/James_Wang_CV_compiled.tex` from the
+repository root), or replace both files with updated exports. Keep these filenames
+so the navigation link stays valid, and commit both the source and PDF together.
+
 ## Running locally
 
 When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:

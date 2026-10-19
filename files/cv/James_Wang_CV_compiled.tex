@@ -1,0 +1,151 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\ifdefined\XeTeXversion\else
+  \usepackage[utf8]{inputenc}
+\fi
+\usepackage{lmodern}
+\usepackage{enumitem,tabularx}
+\usepackage[colorlinks=true,urlcolor=black,pdftitle={James Wang CV},pdfauthor={James Wang}]{hyperref}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\raggedright
+% One spacing system: single-spaced text, 6pt between entries,
+% 12pt before sections, and 6pt below the section rule.
+\raggedbottom
+\newcommand{\cvsection}[1]{%
+  \par\addpenalty{-300}\addvspace{12pt}%
+  {\large\bfseries #1\par}%
+  \nobreak\vspace{3pt}\hrule height 0.4pt%
+  \nobreak\vspace{6pt}\nobreak
+}
+\newcommand{\entrysep}{\par\addvspace{6pt}}
+\renewcommand{\labelitemi}{\(\bullet\)}
+\setlist[itemize]{leftmargin=11pt,topsep=0pt,itemsep=2pt,parsep=0pt,partopsep=0pt}
+\newcommand{\entry}[2]{\noindent\begin{tabularx}{\textwidth}{@{}Xr@{}}#1 & #2\end{tabularx}\par\nobreak\vspace{2pt}}
+\begin{document}
+\begingroup
+\centering
+{\fontsize{25}{28}\selectfont James Wang}\\[5pt]
+New York, NY \enspace|\enspace
+\href{mailto:jw5002@columbia.edu}{jw5002@columbia.edu}
+\enspace|\enspace \href{https://jwang541.github.io/}{jwang541.github.io}\\[2pt]
+\href{https://linkedin.com/in/jwang541}{linkedin.com/in/jwang541}
+\enspace|\enspace \href{https://github.com/jwang541}{github.com/jwang541}
+\par
+\endgroup
+\addvspace{8pt}
+
+\cvsection{Education}
+\begin{samepage}
+\entry{\textbf{Columbia University}, PhD in Computer Science}{2026--Present}
+\begin{itemize}
+\item Advisers: Alexandr Andoni, Adam Block, and Daniel Hsu.
+\item Research interests: theoretical foundations of machine learning, reinforcement learning, and language modeling.
+\end{itemize}
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{University of Pennsylvania}, MSE in Computer Science}{Aug 2024--May 2026}
+\begin{itemize}
+\item GPA: 4.0/4.0.
+\end{itemize}
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{University of Pennsylvania}, BSE in Computer Science}{Aug 2022--May 2026}
+\begin{itemize}
+\item GPA: 3.95/4.0.
+\end{itemize}
+\end{samepage}\entrysep
+\cvsection{Publications and Preprints}
+\begin{samepage}
+S. Goel, J. Pei, and \textbf{J. Wang} (alphabetical order). Learning When to Stop: Selective Imitation Learning Under Arbitrary Dynamics Shift. \textit{NeurIPS 2026; ICML 2026 Workshop DEMO.}\par
+\end{samepage}\entrysep
+\begin{samepage}
+\textbf{J. Wang} and S. Goel. Weight Clipping for Robust Conformal Inference under Unbounded Covariate Shifts. \textit{arXiv preprint, 2026.}\par
+\end{samepage}\entrysep
+\begin{samepage}
+\textbf{J. Wang}, B. D. Lee, I. Ziemann, and N. Matni. Logarithmic Regret for Nonlinear Control. \textit{Learning for Dynamics and Control (L4DC), 2025.}\par
+\end{samepage}\entrysep
+\cvsection{Research Experience}
+\begin{samepage}
+\entry{\textbf{Research Assistant}, University of Pennsylvania}{Jan 2025--Aug 2026}
+\begin{itemize}
+\item Worked with Prof. Surbhi Goel in the Department of Computer and Information Science on robust learning, selective imitation learning, and uncertainty quantification under distribution shift.
+\end{itemize}
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{Research Assistant}, University of Pennsylvania, GRASP Lab}{Jan 2024--Jan 2025}
+\begin{itemize}
+\item Worked with Prof. Nikolai Matni on reinforcement learning algorithms for system identification and control of nonlinear systems.
+\end{itemize}
+\end{samepage}\entrysep
+\cvsection{Teaching Experience}
+\begin{samepage}
+\entry{\textbf{Teaching Assistant}, Columbia University}{Fall 2026}
+COMS E6998: Algorithms in Large Language Models.\par
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{Teaching Assistant}, University of Pennsylvania}{Fall 2025; Spring 2026}
+CIS 5030: Algorithms for Big Data (Spring 2026: online program).\par
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{Teaching Assistant}, University of Pennsylvania}{Spring 2025; Spring 2026}
+ESE 6050: Modern Convex Optimization.\par
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{Teaching Assistant}, University of Pennsylvania}{Fall 2024}
+CIS 6250: Theory of Machine Learning.\par
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{Course Developer}, University of Pennsylvania}{Summer 2024}
+ESE 2030: Linear Algebra for Engineering and A.I.\par
+\end{samepage}\entrysep
+\cvsection{Professional Experience}
+\begin{samepage}
+\entry{\textbf{Software Development Intern}, Gecko Robotics --- Pittsburgh, PA}{May--Aug 2025}
+\begin{itemize}
+\item Developed a Python toolkit and Svelte frontend for greentagging Toka4 and Toka5 robots; deployed the tools into Fulcrum, Gecko Robotics' primary field-data collection software.
+\end{itemize}
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{Software Development Intern}, University of Pennsylvania}{Feb--Aug 2023}
+\begin{itemize}
+\item Worked at the Center for Biomedical Image Computing \& Analytics.
+\item Implemented a self-supervised U-Net in PyTorch for fMRI compression and reconstruction, improving accuracy from 91\% to 96\% relative to prior state-of-the-art methods.
+\end{itemize}
+\end{samepage}\entrysep
+\cvsection{Selected Projects}
+\begin{samepage}
+\entry{\textbf{Symbolic Mathematics and Numerical Optimization in Haskell}}{}
+\begin{itemize}
+\item Developed a Haskell library to parse, manipulate, simplify, and evaluate symbolic expressions, then built an optimization library for unconstrained and constrained convex problems using gradient and Hessian methods. Final project for CIS 5520 (Advanced Programming).
+\end{itemize}
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{No-Regret Trading Algorithms}}{}
+\begin{itemize}
+\item Formalized algorithmic trading as an online learning problem in a 15-page report; proved profit-and-loss guarantees for two trading algorithms and verified theoretical predictions in a trading simulator. Final project for MATH 5300 (Financial Mathematics).
+\end{itemize}
+\end{samepage}\entrysep
+\begin{samepage}
+\entry{\textbf{Penn Electric Racing Software Team}}{Aug 2022--Apr 2024}
+\begin{itemize}
+\item Implemented a PID traction-control system that reduced tire slippage by 80\% during acceleration and reduced 0--60 mph acceleration time by 0.2 seconds.
+\item Wrote C++ drivers to communicate with and monitor the accumulator management system and powertrain control module over CAN, SPI, and I2C.
+\item Developed a high-frequency embedded logger with a custom binary format, enabling fault-tolerant sensor logging using 50\% of the storage required by CSV.
+\end{itemize}
+\end{samepage}\entrysep
+\cvsection{Skills and Interests}
+\begin{samepage}
+\textbf{Programming:} Python (PyTorch, scikit-learn, NumPy, CVXPY, pandas); C++; C; Java; SQL; C\#; OCaml; Haskell; R; LaTeX.\par
+\end{samepage}\entrysep
+\begin{samepage}
+\textbf{Interests:} 8-ball pool; crochet; cooking; anime.\par
+\end{samepage}\entrysep
+\end{document}

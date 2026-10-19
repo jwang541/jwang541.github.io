@@ -4,12 +4,15 @@
 # links. Removing a link prevents it from showing in the header, but does not
 # prevent it from being included in the site.
 #
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# The CV links directly to the PDF; target opens it in a new browser tab.
 
 main:
   - title: "Publications"
     url: /publications/
+
+  - title: "CV"
+    url: /files/cv/James_Wang_CV_compiled.pdf
+    target: _blank
 
   # - title: "Talks"
   #   url: /talks/    
@@ -22,12 +25,6 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
     
   # - title: "Guide"
   #   url: /markdown/

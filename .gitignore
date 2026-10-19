@@ -21,3 +21,11 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Ignore LaTeX build intermediates; keep the CV source and PDF.
+files/cv/*.aux
+files/cv/*.log
+files/cv/*.out
+files/cv/*.fls
+files/cv/*.fdb_latexmk
+files/cv/*.synctex.gz
