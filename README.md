@@ -36,6 +36,17 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 Docker (`docker compose up`) and the VS Code dev container configuration are also available.
 
+## JavaScript and math support
+
+The JavaScript bundle contains navigation, theme switching, and the shared UI helpers. After editing `assets/js/_main.js` or its plugins, rebuild the committed bundle:
+
+```sh
+npm install
+npm run build:js
+```
+
+Add `math: true` to a page's front matter when it needs MathJax. Publications enables it; other pages avoid loading the math library.
+
 ## Updating the CV
 
 The navigation's CV link opens `files/cv/James_Wang_CV_compiled.pdf` in a new browser tab. Its editable LaTeX source is stored beside it at `files/cv/James_Wang_CV_compiled.tex`.

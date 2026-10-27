@@ -3,6 +3,7 @@
 title: "Publications"
 permalink: /publications/
 author_profile: true
+math: true
 ---
 
 (\\(\alpha\\)-\\(\beta\\) denotes alphabetical ordering)
