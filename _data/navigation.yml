@@ -10,6 +10,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Teaching"
+    url: /teaching/
+
   - title: "CV"
     url: /files/cv/James_Wang_CV_compiled.pdf
     target: _blank
