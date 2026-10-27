@@ -62,13 +62,13 @@
 
   &--lg {
     padding-right: 2em;
-    font-weight: 700;
+    font-weight: 500;
   }
 }
 
 .masthead__menu-item.selected a {
   color: var(--global-text-color);
-  font-weight: 700;
+  font-weight: 500;
   border-bottom: 2px solid var(--global-text-color);
   pointer-events: none; /* Move this here */
   cursor: default; /* Move this here too */
