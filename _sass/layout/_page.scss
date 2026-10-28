@@ -107,6 +107,25 @@
   }
 }
 
+/* Publication titles and citation details share a consistent list layout. */
+.page__content .publications-list {
+  > li {
+    margin: 0;
+
+    + li {
+      margin-top: 0.9em;
+    }
+
+    > p {
+      margin: 0;
+    }
+  }
+
+  .publication__details {
+    font-size: 0.9em;
+  }
+}
+
 /* Education entries keep dates aligned and stack them on small screens. */
 .education__heading {
   display: grid;
