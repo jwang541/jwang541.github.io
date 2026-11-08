@@ -1,4 +1,5 @@
 ---
+description: "Teaching and course-development experience of James Wang at Columbia University and the University of Pennsylvania."
 title: "Teaching"
 permalink: /teaching/
 author_profile: true

@@ -59,6 +59,21 @@ pdflatex -output-directory=files/cv files/cv/James_Wang_CV_compiled.tex
 
 Alternatively, replace both files with updated exports. Keep these filenames so the navigation link stays valid, and commit both the source and PDF together.
 
+## Search and sharing metadata
+
+Each public page has a `description` in its front matter. The homepage also has a `seo_title` for browser tabs and search results; its visible heading remains “About”. Shared metadata, the profile image, and the Google Scholar/GitHub profile links are configured in `_config.yml` and rendered by `_includes/seo.html`.
+
+The site generates `sitemap.xml` and `robots.txt` automatically. The 404 page is excluded from the sitemap and marked `noindex`.
+
+Google Search Console setup is prepared for the URL-prefix property `https://jwang541.github.io/`. The verification tag is configured, but ownership verification and sitemap submission remain pending until these changes are published:
+
+1. Publish the site through the normal GitHub Pages workflow.
+2. Open [Google Search Console](https://search.google.com/search-console), choose this URL-prefix property, and verify using the HTML tag method.
+3. Submit `https://jwang541.github.io/sitemap.xml` under Sitemaps.
+4. Inspect the homepage URL and request indexing if needed; review the Pages report once Google has processed the site.
+
+Keep the verification tag in `_config.yml` after verification.
+
 ## Theme and license
 
 Shared layouts, includes, styles, and JavaScript support the site, including navigation, dark mode, icons, and math in publications. These remain part of the theme infrastructure. Crimson Pro is loaded from Google Fonts.

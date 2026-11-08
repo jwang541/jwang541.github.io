@@ -1,4 +1,5 @@
 ---
+description: "Research publications and preprints by James Wang on machine learning, imitation learning, conformal inference, and nonlinear control."
 # layout: archive
 title: "Publications"
 permalink: /publications/
