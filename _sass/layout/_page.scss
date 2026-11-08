@@ -5,6 +5,8 @@
 #main {
   @include container;
   @include clearfix;
+  flex: 1 0 auto;
+  width: 100%;
   margin-top: 2em;
   padding-left: 1em;
   padding-right: 1em;
@@ -155,10 +157,11 @@
 
 /* Compact course lists, scoped to the Teaching page. */
 .page__content .teaching {
-  margin-top: 1.25em;
+  max-width: 660px;
+  margin-top: 0.75em;
 
   &__group + .teaching__group {
-    margin-top: 1.75em;
+    margin-top: 1.25em;
   }
 
   &__group h2 {
@@ -176,7 +179,7 @@
     margin: 0;
 
     + .teaching__entry {
-      margin-top: 0.9em;
+      margin-top: 0.65em;
     }
 
     h3 {
