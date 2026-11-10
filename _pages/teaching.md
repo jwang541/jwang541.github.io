@@ -1,11 +1,12 @@
 ---
 description: "Teaching and course-development experience of James Wang at Columbia University and the University of Pennsylvania."
 title: "Teaching"
+hide_title: true
 permalink: /teaching/
 author_profile: true
 ---
 
-<div class="teaching">
+<div class="teaching academic-list-page">
   <section class="teaching__group" aria-labelledby="teaching-columbia">
     <h2 id="teaching-columbia">Columbia University</h2>
     <ul class="teaching__list" role="list">

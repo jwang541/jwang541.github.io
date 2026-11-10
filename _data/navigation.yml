@@ -7,7 +7,7 @@
 # The CV links directly to the PDF; target opens it in a new browser tab.
 
 main:
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
 
   - title: "Teaching"

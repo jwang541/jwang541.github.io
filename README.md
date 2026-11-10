@@ -5,7 +5,7 @@ Personal academic website built with Jekyll and the [Academic Pages](https://git
 ## Editing the site
 
 - `_pages/about.md`: home page, biography, and education.
-- `_pages/publications.md`: publications and paper links.
+- `_pages/publications.md`: Research page, with preprints followed by publications.
 - `_pages/teaching.md`: teaching and course-development experience.
 - `_data/navigation.yml`: header navigation and the CV link.
 - `_config.yml`: profile, contact information, and site settings.
@@ -14,7 +14,7 @@ Personal academic website built with Jekyll and the [Academic Pages](https://git
 - `_sass/layout/_page.scss`: education dates, sub-bullets, and paragraph spacing.
 - `images/japan pfp.jpg`: current profile photo.
 
-The template's demo pages and collections have been removed. The remaining pages are About, Publications, Teaching, and the 404 page; the CV links directly to its PDF. Jekyll still generates `sitemap.xml` for search engines.
+The template's demo pages and collections have been removed. The remaining pages are About, Research, Teaching, and the 404 page; the CV links directly to its PDF. Jekyll still generates `sitemap.xml` for search engines.
 
 ## Running locally
 
@@ -45,7 +45,7 @@ npm install
 npm run build:js
 ```
 
-Add `math: true` to a page's front matter when it needs MathJax. Publications enables it; other pages avoid loading the math library.
+Add `math: true` to a page's front matter when it needs MathJax. Pages without it avoid loading the math library.
 
 ## Updating the CV
 

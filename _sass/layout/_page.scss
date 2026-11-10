@@ -52,6 +52,10 @@
 
 .page__content {
 
+  &--no-title > h2:first-child {
+    margin-top: 0;
+  }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
@@ -109,29 +113,49 @@
   }
 }
 
-/* Publication titles and citation details share a consistent list layout. */
-.page__content .publications-list {
-  > li {
+/* About, Research, and Teaching share section, entry, and detail spacing. */
+.page__content .academic-list-page {
+  h2 {
+    margin: 0 0 0.75rem;
+  }
+
+  > h2:not(:first-child),
+  .teaching__group + .teaching__group {
+    margin-top: 2rem;
+  }
+
+  .publications-list,
+  .teaching__list,
+  .education-list {
     margin: 0;
+    list-style: disc;
 
-    + li {
-      margin-top: 0.9em;
-    }
-
-    > p {
+    > li {
       margin: 0;
+
+      + li {
+        margin-top: 0.9rem;
+      }
+
+      > p {
+        margin: 0;
+      }
     }
   }
 
-  .publication__details {
+  .publication__details,
+  .teaching__role {
+    display: block;
+    margin: 0;
     font-size: 0.9em;
+    line-height: 1.4;
   }
 }
 
 /* Education entries keep dates aligned and stack them on small screens. */
 .education__heading {
   display: grid;
-  gap: 0.125em 1em;
+  gap: 0.25em 1.5em;
   align-items: baseline;
 
   @include breakpoint($small) {
@@ -150,7 +174,7 @@
 
 .education__dates {
   color: var(--global-text-color);
-  font-size: 0.85em;
+  font-size: 0.9em;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -158,35 +182,14 @@
 /* Compact course lists, scoped to the Teaching page. */
 .page__content .teaching {
   max-width: 660px;
-  margin-top: 0.75em;
-
-  &__group + .teaching__group {
-    margin-top: 1.25em;
-  }
-
-  &__group h2 {
-    margin: 0 0 0.75em;
-    padding-bottom: 0.35em;
-    font-size: 1.15em;
-  }
-
-  &__list {
-    margin: 0;
-    list-style: disc;
-  }
+  margin-top: 0;
 
   &__entry {
-    margin: 0;
-
-    + .teaching__entry {
-      margin-top: 0.65em;
-    }
-
     h3 {
       margin: 0;
       font-size: 1em;
       font-weight: 400;
-      line-height: 1.3;
+      line-height: 1.4;
     }
   }
 
@@ -200,14 +203,8 @@
     }
   }
 
-  &__role {
-    margin: 0.15em 0 0;
-    font-size: 0.9em;
-    line-height: 1.3;
-  }
-
   &__dates {
-    font-size: 0.85em;
+    font-size: 0.9em;
     line-height: 1.4;
     font-variant-numeric: tabular-nums;
 
