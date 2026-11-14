@@ -147,7 +147,7 @@
   .teaching__role {
     display: block;
     margin: 0;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.4;
   }
 }
@@ -174,7 +174,7 @@
 
 .education__dates {
   color: var(--global-text-color);
-  font-size: 0.9em;
+  font-size: 1em;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -204,7 +204,7 @@
   }
 
   &__dates {
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.4;
     font-variant-numeric: tabular-nums;
 

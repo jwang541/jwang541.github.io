@@ -2,7 +2,7 @@
 seo_title: "James Wang | Computer Science PhD Student at Columbia"
 description: "James Wang is a Computer Science PhD student at Columbia University studying the theoretical foundations of machine learning, reinforcement learning, and language modeling."
 permalink: /
-title: "About"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/

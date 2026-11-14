@@ -18,7 +18,7 @@ author_profile: true
 ## Publications
 
 - [Learning When to Stop: Selective Imitation Learning Under Arbitrary Dynamics Shift](https://arxiv.org/abs/2605.09183).
-  <span class="publication__details">Joint work with S. Goel and J. Pei (alphabetical ordering). **NeurIPS 2026.** ICML 2026 Workshop DEMO.</span>
+  <span class="publication__details">Joint work with S. Goel and J. Pei (alphabetical ordering). **NeurIPS 2026.**</span>
 
 - [Logarithmic Regret for Nonlinear Control](https://arxiv.org/abs/2501.10261).
   <span class="publication__details">Joint work with B. Lee, I. Ziemann, and N. Matni. **L4DC 2025.**</span>
