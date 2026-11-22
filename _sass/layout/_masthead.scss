@@ -62,13 +62,13 @@
 
   &--lg {
     padding-right: 2em;
-    font-weight: 500;
+    font-weight: inherit;
   }
 }
 
 .masthead__menu-item.selected a {
   color: var(--global-text-color);
-  font-weight: 500;
+  font-weight: 350;
   border-bottom: 2px solid var(--global-text-color);
   pointer-events: none; /* Move this here */
   cursor: default; /* Move this here too */
@@ -78,4 +78,8 @@
   color: var(--global-text-color);
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
+}
+
+.masthead__menu-item--lg.selected a {
+  font-weight: inherit;
 }
