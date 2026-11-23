@@ -35,14 +35,14 @@ $sidebar-screen-min-width   : 1024px;
     --global-dark-border-color          : #bdc1c4;
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
+    --global-fig-caption-color          : #000;
     --global-link-color                 : #287fa0;
     --global-link-color-hover           : #206782;
     --global-link-color-visited         : #287fa0;
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
+    --global-masthead-link-color        : #000;
+    --global-masthead-link-color-hover  : #000;
+    --global-text-color                 : #000;
+    --global-text-color-light           : #000;
     --global-thead-color                : #{$lighter-gray};
 }
 
