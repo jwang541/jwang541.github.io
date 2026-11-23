@@ -13,7 +13,7 @@ author_profile: true
       <li class="teaching__entry">
         <div class="teaching__row">
           <div>
-            <h3>COMS E6998: Algorithms in Large Language Models</h3>
+            <h3>Algorithms in Large Language Models (COMS E6998)</h3>
             <p class="teaching__role"><em>Teaching assistant</em></p>
           </div>
           <div class="teaching__dates">Fall 2026</div>
@@ -28,7 +28,7 @@ author_profile: true
       <li class="teaching__entry">
         <div class="teaching__row">
           <div>
-            <h3>CIS 5030: Algorithms for Big Data</h3>
+            <h3>Algorithms for Big Data (CIS 5030)</h3>
             <p class="teaching__role"><em>Teaching assistant</em></p>
           </div>
           <div class="teaching__dates">Fall 2025, Spring 2026</div>
@@ -37,7 +37,7 @@ author_profile: true
       <li class="teaching__entry">
         <div class="teaching__row">
           <div>
-            <h3>ESE 6050: Modern Convex Optimization</h3>
+            <h3>Modern Convex Optimization (ESE 6050)</h3>
             <p class="teaching__role"><em>Teaching assistant</em></p>
           </div>
           <div class="teaching__dates">Spring 2025, Spring 2026</div>
@@ -46,7 +46,7 @@ author_profile: true
       <li class="teaching__entry">
         <div class="teaching__row">
           <div>
-            <h3>CIS 6250: Theory of Machine Learning</h3>
+            <h3>Theory of Machine Learning (CIS 6250)</h3>
             <p class="teaching__role"><em>Teaching assistant</em></p>
           </div>
           <div class="teaching__dates">Fall 2024</div>
@@ -55,7 +55,7 @@ author_profile: true
       <li class="teaching__entry">
         <div class="teaching__row">
           <div>
-            <h3>ESE 2030: Linear Algebra for Engineering and A.I.</h3>
+            <h3>Linear Algebra for Engineering and A.I. (ESE 2030)</h3>
             <p class="teaching__role"><em>Course developer</em></p>
           </div>
           <div class="teaching__dates">Summer 2024</div>
