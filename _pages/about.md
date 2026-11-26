@@ -17,13 +17,13 @@ I am broadly interested in the theoretical foundations of machine learning, rein
 
 Education
 ------
-- <span class="education__heading"><span>PhD in Computer Science, Columbia University</span> <span class="education__dates">2026–present</span></span>
-- <span class="education__heading"><span>BSE and MSE in Computer Science, University of Pennsylvania</span> <span class="education__dates">2022–2026</span></span>
+- <span class="education__heading"><span>PhD in Computer Science<em class="entry__organization">Columbia University</em></span> <span class="education__dates">2026–present</span></span>
+- <span class="education__heading"><span>BSE and MSE in Computer Science<em class="entry__organization">University of Pennsylvania</em></span> <span class="education__dates">2022–2026</span></span>
 {: .education-list }
 
 Experience
 ------
-- <span class="education__heading"><span>Software Development Intern, Gecko Robotics</span> <span class="education__dates">May–Aug 2025</span></span>
+- <span class="education__heading"><span>Software Development Intern<em class="entry__organization">Gecko Robotics</em></span> <span class="education__dates">May–Aug 2025</span></span>
 {: .education-list }
 
 </div>

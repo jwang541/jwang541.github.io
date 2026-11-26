@@ -59,6 +59,12 @@ $x-large                    : 1280px !default;
    Grid
    ========================================================================== */
 
+/* One centered frame for the profile, content, navigation, and footer. */
+$content-width             : 720px;
+$profile-sidebar-width     : 210px;
+$profile-column-gap        : 54px;
+$site-container-width      : calc(#{$profile-sidebar-width + $profile-column-gap + $content-width} + 2em);
+
 $right-sidebar-width-narrow : auto;
 $right-sidebar-width        : auto;
 $right-sidebar-width-wide   : auto;

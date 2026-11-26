@@ -29,12 +29,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
-    max-width: 100%;
+    max-width: $site-container-width;
     padding: 0 1em 1em;
 
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
   }
 
   a {
